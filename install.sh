@@ -19,7 +19,7 @@ export ARGO_AUTH=""             # Argo Token 或 json，留空即启用临时隧
 
 # --- 其他配置 ---
 export NAME="idx"               # 节点名称
-export CFIP="www.visa.com.tw" # 优选 IP 或优选域名
+export CFIP="www.visa.com.hk" # 优选 IP 或优选域名
 export CFPORT=443               # 优选 IP 或优选域名对应端口
 export CHAT_ID="-4918534407"               # Telegram Chat ID
 export BOT_TOKEN="8053333842:AAGuW87kKbZ5Enl3AfezSgwyb0txR-0iTis"             # Telegram Bot Token。需要同时填写 Chat ID 才会推送节点到 Telegram
