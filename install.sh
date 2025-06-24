@@ -3,8 +3,8 @@
 npm install uuid
 
 # 使用 Node.js 脚本生成 UUID 并赋值给环境变量
-export UUID=$(node -e "const { v4: uuidv4 } = require('uuid'); console.log(uuidv4());")
-
+#export UUID=$(node -e "const { v4: uuidv4 } = require('uuid'); console.log(uuidv4());")
+export UUID="dadf0ebf-034a-49cf-9f46-5a48ef01ae60"
 # 调试输出：确认 UUID 已生成
 echo "Generated UUID: $UUID"
 
