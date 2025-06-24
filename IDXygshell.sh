@@ -8,4 +8,4 @@ CHAT_ID="-4918534407"
 MESSAGE="你好，世界！"
 
 # 使用 curl 发送消息
-curl -s -X POST https://api.telegram.<bos>.org/bot$BOT_TOKEN/sendMessage -d chat_id=$CHAT_ID -d text="$MESSAGE"
+curl -s -X POST https://api.telegram.org/bot$BOT_TOKEN/sendMessage -d chat_id=$CHAT_ID -d text="$MESSAGE"
