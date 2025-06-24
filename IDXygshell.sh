@@ -1,5 +1,5 @@
-nix=y uuid=8bc74623-6ae8-4d92-bcc2-c63b38adc734 vmpt=50108 agn=lx.xielioukom.x10.mx agk=eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiYjRiNjZjODktNzg1Yy00NDg5LWE4NDUtNDFhMzY2NjA1ZDk1IiwicyI6Ik16QXpNbVl5WkRndFkyWmxOeTAwTXpoaExXSTVPVEl0TXpKalpHRm1OMk5oWkdGaSJ9 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)
-
+vmpt="50108" argo="y" agn="lx.xielioukom.x10.mx" agk="eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiYjRiNjZjODktNzg1Yy00NDg5LWE4NDUtNDFhMzY2NjA1ZDk1IiwicyI6Ik16QXpNbVl5WkRndFkyWmxOeTAwTXpoaExXSTVPVEl0TXpKalpHRm1OMk5oWkdGaSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)
+cat /home/user/agsb/jh.txt
 # 设置 Bot API token
 BOT_TOKEN="8053333842:AAGuW87kKbZ5Enl3AfezSgwyb0txR-0iTis"
 # 设置目标群组的 chat ID
