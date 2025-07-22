@@ -1,4 +1,4 @@
-vmpt="" uuid="dadf0ebf-034a-49cf-9f46-5a48ef01ae60" argo="y" agn="cldns.x5411y.cloudns.biz" agk="eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiODJiODM4OTItYmMwZC00MWFjLWFmZGMtNzZhMWIwMzE1OWE2IiwicyI6Ik1qWXhOREkzWm1JdE5qRmpNQzAwWmpJMExXRTRZekl0T0dSak56VTJZV00yWkRReSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)
+vmpt="12334" uuid="dadf0ebf-034a-49cf-9f46-5a48ef01ae60" argo="y" agn="cldns.x5411y.cloudns.biz" agk="eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiODJiODM4OTItYmMwZC00MWFjLWFmZGMtNzZhMWIwMzE1OWE2IiwicyI6Ik1qWXhOREkzWm1JdE5qRmpNQzAwWmpJMExXRTRZekl0T0dSak56VTJZV00yWkRReSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)
 cat /home/user/agsb/jh.txt
 # 设置 Bot API token
 BOT_TOKEN="8053333842:AAGuW87kKbZ5Enl3AfezSgwyb0txR-0iTis"
