@@ -14,8 +14,8 @@ export NEZHA_PORT=""            # v1 哪吒不要填写这个。v0 哪吒 agent 
 export NEZHA_KEY=""             # v1 哪吒的 NZ_CLIENT_SECRET 或 v0 哪吒 agent 密钥
 
 # --- Argo 隧道配置 ---
-export ARGO_DOMAIN=""           # Argo 域名，留空即启用临时隧道
-export ARGO_AUTH=""             # Argo Token 或 json，留空即启用临时隧道
+export ARGO_DOMAIN="cldns.x5411y.cloudns.biz"           # Argo 域名，留空即启用临时隧道
+export ARGO_AUTH="eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiODJiODM4OTItYmMwZC00MWFjLWFmZGMtNzZhMWIwMzE1OWE2IiwicyI6Ik1qWXhOREkzWm1JdE5qRmpNQzAwWmpJMExXRTRZekl0T0dSak56VTJZV00yWkRReSJ9"             # Argo Token 或 json，留空即启用临时隧道
 
 # --- 其他配置 ---
 export NAME="idx"               # 节点名称
