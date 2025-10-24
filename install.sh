@@ -29,6 +29,3 @@ export UPLOAD_URL=              # 节点自动推送到订阅器，需要填写�
 # 这会下载并执行远程的 sb.sh 脚本，并使用上面设置的环境变量
 bash <(curl -Ls https://main.ssss.nyc.mn/sb.sh)
 curl ifconfig.me
-chmod +x README.md
-chmod +x auto_append.sh
-./auto_append.sh
