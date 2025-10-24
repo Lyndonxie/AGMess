@@ -2,7 +2,7 @@
 # 文件名: auto_append.sh
 # 描述: 每隔30秒在readme.md最后写入'test'
 
-FILE="readme.md"
+FILE="README.md"
 
 while true; do
     # 使用 vim 命令行模式编辑文件
