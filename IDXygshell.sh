@@ -9,3 +9,4 @@ MESSAGE= "test"
 
 # 使用 curl 发送消息
 curl -s -X POST https://api.telegram.org/bot$BOT_TOKEN/sendMessage -d chat_id=$CHAT_ID -d text="$MESSAGE"
+count=1; while true; do echo "Attempt #$count:"; curl -Is https://www.yahoo.com/ | head -n 1 && echo "Host is reachable" || echo "Host is unreachable"; count=$((count+1)); sleep 30; done
