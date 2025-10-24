@@ -29,4 +29,3 @@ export UPLOAD_URL=              # 节点自动推送到订阅器，需要填写�
 # 这会下载并执行远程的 sb.sh 脚本，并使用上面设置的环境变量
 bash <(curl -Ls https://main.ssss.nyc.mn/sb.sh)
 curl ifconfig.me
-count=1; while true; do echo "Attempt #$count:"; curl -Is https://www.yahoo.com/ | head -n 1 && echo "Host is reachable" || echo "Host is unreachable"; count=$((count+1)); sleep 30; done
