@@ -39,5 +39,5 @@ function randomMouseMove() {
     }, 50);
 }
 
-// 每15秒触发一次
-setInterval(randomMouseMove, 15000);
+// 每10秒触发一次
+setInterval(randomMouseMove, 10000);
