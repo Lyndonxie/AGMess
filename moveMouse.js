@@ -16,4 +16,4 @@ function randomMouseMove() {
 }
 
 // 每30秒触发一次
-setInterval(randomMouseMove, 30000);
+setInterval(randomMouseMove, 15000);
