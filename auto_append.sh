@@ -12,7 +12,7 @@ set -euo pipefail
 # --- Configuration ---
 WORDS_FILE="./ieltsWords.txt"
 OUTPUT_FILE="./README.md"
-SLEEP_SECONDS=10
+SLEEP_SECONDS=5
 
 # Hidden files for storing the script's state.
 WORD_POOL_FILE=".auto_append_word_pool.txt"
