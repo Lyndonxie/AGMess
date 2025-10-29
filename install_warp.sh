@@ -1,11 +1,1 @@
-#!/bin/bash
-
-npm install uuid
-
-# 使用 Node.js 脚本生成 UUID 并赋值给环境变量
-#export UUID=$(node -e "const { v4: uuidv4 } = require('uuid'); console.log(uuidv4());")
-export UUID="c7900268-5f00-4356-92e1-0a227fed6151"
-# 调试输出：确认 UUID 已生成
-echo "Generated UUID: $UUID"
-
-vmpt="12334" argo="y" warp="" agn="cx.f.b.2.0.9.1.0.0.0.7.4.0.1.0.0.2.ip6.arpa" agk="eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiODJiODM4OTItYmMwZC00MWFjLWFmZGMtNzZhMWIwMzE1OWE2IiwicyI6Ik1qWXhOREkzWm1JdE5qRmpNQzAwWmpJMExXRTRZekl0T0dSak56VTJZV00yWkRReSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+uuid="c7900268-5f00-4356-92e1-0a227fed6151" vmpt="8002" argo="y" warp="" agn="cx.f.b.2.0.9.1.0.0.0.7.4.0.1.0.0.2.ip6.arpa" agk="eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiODJiODM4OTItYmMwZC00MWFjLWFmZGMtNzZhMWIwMzE1OWE2IiwicyI6Ik1qWXhOREkzWm1JdE5qRmpNQzAwWmpJMExXRTRZekl0T0dSak56VTJZV00yWkRReSJ9" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
