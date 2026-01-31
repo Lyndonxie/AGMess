@@ -27,4 +27,4 @@ export UPLOAD_URL=              # 节点自动推送到订阅器，需要填写�
 
 # --- 执行主部署脚本 ---
 # 这会下载并执行远程的 sb.sh 脚本，并使用上面设置的环境变量
-bash <(curl -Ls https://main.ssss.nyc.mn/sb.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Lyndonxie/AGMess/refs/heads/main/sbckup.sb)
